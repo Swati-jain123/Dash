@@ -1,0 +1,11 @@
+
+@media only screen and (min-width: 600px) {
+#bar{
+    margin-left: 18%;
+    height:80%;
+    font-weight: bolder;
+    width: 80%;
+    border-radius: 20px;
+   
+}
+}

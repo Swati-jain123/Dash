@@ -1,0 +1,99 @@
+
+    
+@media only screen and (min-width: 600px) {
+    .tab{
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+
+    }
+    .tab ul{
+      list-style-type: none;
+
+    }
+    .tab ul li{
+      display: inline;
+      color: white;
+      text-align: center;
+      background-color: gray;
+      width: 100px;
+    }
+
+    .tab ul li:hover{
+      color: black;
+      cursor: pointer;
+      background-color: white;
+    }
+    .content{
+      display: none;
+    }
+    .dall{
+      background-color:#fff;
+      width:600px;
+      height:180px;
+      box-shadow:0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+      margin-top:33%;
+      position:fixed;
+      margin-left: 55%;
+    }
+    .phone{
+      display: flex;
+     justify-content: space-between;
+     margin: 2%;
+    
+    }
+    #d{
+      background-color: #fff;
+      width: 550px;
+      height: 180px;
+      margin-left: 55%;
+      box-shadow:0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+      margin-top:31%;
+      position: fixed;
+    }
+
+  }
+@media only screen and (max-width: 600px) {
+  #d{
+    background-color: #fff;
+    width: 100%;
+    height: 180px;
+    box-shadow:0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+
+    
+  }
+   .tab{
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+
+    }
+    .tab ul{
+      list-style-type: none;
+
+    }
+    .tab ul li{
+      display: inline;
+      color: white;
+      text-align: center;
+      background-color: gray;
+      width: 100px;
+    }
+
+    .tab ul li:hover{
+      color: black;
+      cursor: pointer;
+      background-color: white;
+    }
+    .content{
+      display: none;
+    }
+
+    .phone{
+      display: flex;
+     justify-content: space-between;
+     margin: 2%;
+    
+    }
+
+}

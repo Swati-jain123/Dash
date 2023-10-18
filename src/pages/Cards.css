@@ -1,0 +1,52 @@
+
+@media only screen and (min-width: 600px) {
+.container{
+    margin-left:15%;
+    position:"fixed";
+}
+.card {
+    background-color: #fff;
+    
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+ 
+}
+
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+    margin-top: 1%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        background-color: #fff;
+        
+        border-radius: 10px;
+        border: none;
+       margin-left: 30px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 150px;
+        box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+     
+    }
+    
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+ 
+@media only screen and (min-width: 600px) {
+
+  .board{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+  
+  .sidenav {
+    height: 90%;
+    width: 200px;
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color:#3A9BDC;
+    overflow-x: hidden;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+  
+
+  }
+ 
+  
+  .sidenav a {
+
+    margin: 20px;
+    
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: gainsboro;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: white;
+  }
+  .smallside{
+    /* margin-top: 85%; */
+    margin-top: 120px;
+  }
+
+  .smallside a:hover, .dropdown-btn:hover {
+    color: white;
+  }
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+ 
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .sidenav{
+    width: 100%;
+    height: 100%;
+    background-color: #3A9BDC;
+  }
+  .board{
+    color: white;
+    text-align: center;
+  }
+ 
+  .sidenav a, .dropdown-btn {
+ 
+    text-decoration: none;
+    color:gainsboro;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    justify-content: space-between;
+   
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: white;
+  }
+
+
+  .smallside a:hover, .dropdown-btn:hover {
+    color: white;
+  }
+ 
+
+
+}

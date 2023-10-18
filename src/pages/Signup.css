@@ -1,0 +1,28 @@
+
+.heading{
+font-size: 35px;
+color:black;
+}
+.para{
+  margin-bottom: 10px;
+}
+.small{
+  margin: 5px;
+}
+.place {
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .innerbox h1{
+    text-align: center;
+  }
+.innerbox{
+  
+  border: 5px solid #3A9BDC;
+  padding: 20px;
+}
+
+.bb{
+  width: 100%;
+}
+}
